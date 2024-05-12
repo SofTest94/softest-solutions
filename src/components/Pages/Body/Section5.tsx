@@ -29,7 +29,7 @@ const Section5: React.FC = () => {
           </div> */}
         </div>
         <div className="section-image">
-          <img src="/img/logo.jpeg" alt="Descripción de la imagen" className="image" />
+          <img src="https://bucket-harmony.s3.amazonaws.com/logo.jpeg" alt="Descripción de la imagen" className="image" />
         </div>
       </div>
     </div>
