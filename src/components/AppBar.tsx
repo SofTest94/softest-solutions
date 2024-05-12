@@ -37,7 +37,7 @@ const AppBar: React.FC<AppBarProps> = () => {
     <AppBarRoot>
       <MuiAppBar position="static">
         <Toolbar>
-          <LogoImage src="/img/logo.jpeg" alt="Logo" height={'80px'} width={'200px'} />
+          <LogoImage src="https://bucket-harmony.s3.amazonaws.com/logo.jpeg" alt="Logo" height={'80px'} width={'200px'} />
 
           <Typography
             variant="h6"
