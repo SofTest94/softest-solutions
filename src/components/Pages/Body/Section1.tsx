@@ -1,8 +1,6 @@
 import React from 'react';
-import Button from '../../atoms/Button';
-// import '../../styles/Section1Styles.scss'; // Importa tus estilos CSS aquí
+
 import '../../styles/Body/Section1Styles.scss';
-import { handleScheduleAppointmentClick } from '../../../utils/functions';
 
 const Section1: React.FC = () => {
   return (

@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import '../styles/HeaderStyles.scss';
 import { handleScheduleAppointmentClick } from '../../utils/functions';
-import AppBar from '../AppBar';
+import AppBar from '../atoms/AppBar';
 import Section5 from '../Pages/Body/Section5';
 import Section1 from '../Pages/Body/Section1';
 
