@@ -36,14 +36,19 @@ const AppBar: React.FC<AppBarProps> = () => {
     <AppBarRoot>
       <MuiAppBar position="static">
         <Toolbar>
-          <LogoImage src="https://bucket-harmony.s3.amazonaws.com/logo.jpeg" alt="Logo" height={'80px'} width={'200px'} />
+          <LogoImage
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8a156873-a830-43b1-9b31-3becb2f788fb/dfjthan-40069148-31b5-4d4e-91a2-b295fb413b22.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhhMTU2ODczLWE4MzAtNDNiMS05YjMxLTNiZWNiMmY3ODhmYlwvZGZqdGhhbi00MDA2OTE0OC0zMWI1LTRkNGUtOTFhMi1iMjk1ZmI0MTNiMjIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vZGUwY5YLxa6ZiVa6qq1kgoJwCSOzNyVdAbUu9AfGeE"
+            alt="Logo"
+            height={'80px'}
+            width={'200px'}
+          />
 
           <Typography
             variant="h6"
             sx={{
               cursor: 'pointer',
               marginLeft: '20px',
-              color: selectedItem === 'section1' ? '#DBE024' : 'black', // Cambia el color si seleccionado
+              color: selectedItem === 'section1' ? '#EEF913' : 'white', // Cambia el color si seleccionado
             }}
             onClick={() => handleMenuItemClick('section1')}
           >
@@ -54,29 +59,29 @@ const AppBar: React.FC<AppBarProps> = () => {
             sx={{
               cursor: 'pointer',
               marginLeft: '20px',
-              color: selectedItem === 'section2' ? '#DBE024' : 'white', // Cambia el color si seleccionado
+              color: selectedItem === 'section2' ? '#EEF913' : 'white', // Cambia el color si seleccionado
             }}
             onClick={() => handleMenuItemClick('section2')}
           >
-            Servicios
+            Animes
           </Typography>
           <Typography
             variant="h6"
             sx={{
               cursor: 'pointer',
               marginLeft: '20px',
-              color: selectedItem === 'section3' ? '#DBE024' : 'white', // Cambia el color si seleccionado
+              color: selectedItem === 'section3' ? '#EEF913' : 'white', // Cambia el color si seleccionado
             }}
             onClick={() => handleMenuItemClick('section3')}
           >
-            Portafolio
+            Peliculas
           </Typography>
-          <Typography
+          {/* <Typography
             variant="h6"
             sx={{
               cursor: 'pointer',
               marginLeft: '20px',
-              color: selectedItem === 'section4' ? '#DBE024' : 'white', // Cambia el color si seleccionado
+              color: selectedItem === 'section4' ? '#EEF913' : 'white', // Cambia el color si seleccionado
             }}
             onClick={() => handleMenuItemClick('section4')}
           >
@@ -87,7 +92,7 @@ const AppBar: React.FC<AppBarProps> = () => {
             sx={{
               cursor: 'pointer',
               marginLeft: '20px',
-              color: selectedItem === 'section5' ? '#F3F91F' : 'white', // Cambia el color si seleccionado
+              color: selectedItem === 'section5' ? '#EEF913' : 'white', // Cambia el color si seleccionado
             }}
             onClick={() => handleMenuItemClick('section5')}
           >
@@ -98,12 +103,12 @@ const AppBar: React.FC<AppBarProps> = () => {
             sx={{
               cursor: 'pointer',
               marginLeft: '20px',
-              color: selectedItem === 'section6' ? '#F3F91F' : 'white', // Cambia el color si seleccionado
+              color: selectedItem === 'section6' ? '#EEF913' : 'white', // Cambia el color si seleccionado
             }}
             onClick={() => handleMenuItemClick('section6')}
           >
             Contacto
-          </Typography>
+          </Typography> */}
         </Toolbar>
       </MuiAppBar>
     </AppBarRoot>

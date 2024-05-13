@@ -1,0 +1,15 @@
+.columns-container {
+  display: flex;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px; /* O cualquier otro margen que desees */
+}
+
+.title-row {
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}

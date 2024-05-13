@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   min-width: 10%;
-  margin: 0px 10%;
+  margin: 0px 2%;
 }
 
 .section-content {
@@ -56,4 +56,42 @@
   max-height: 100%; /* Esto asegura que la altura se ajuste automáticamente según el ancho */
   margin: 0 auto;
   transition: max-width 0.5s, max-height 0.5s;
+}
+
+/* Section1Styles.scss */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Comienza con opacidad cero */
+  }
+  to {
+    opacity: 1; /* Termina con opacidad completa */
+  }
+}
+
+.section-content {
+  animation: fadeIn 1s ease; /* Aplica la animación de fadeIn a todos los elementos dentro de .section-content */
+}
+
+.section-content h1,
+.section-content p {
+  animation: fadeIn 1s ease; /* Aplica la animación de fadeIn a los elementos h1 y p dentro de .section-content */
+}
+
+/* Section1Styles.scss */
+
+@keyframes moveHorizontal {
+  0% {
+    transform: translateX(-50px); /* Mover hacia la izquierda */
+  }
+  50% {
+    transform: translateX(50px); /* Mover hacia la derecha */
+  }
+  100% {
+    transform: translateX(-50px); /* Volver a la posición inicial */
+  }
+}
+
+.section-content h1 {
+  animation: moveHorizontal 4s linear infinite; /* Aplicar la animación de movimiento */
 }

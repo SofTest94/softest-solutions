@@ -1,0 +1,65 @@
+// /* Slider.scss */
+
+// /* Estilos para el contenedor del slider */
+// .slider-container {
+//   width: 80%; /* Ancho del slider */
+//   margin: 0 auto; /* Centrar el slider horizontalmente */
+// }
+
+// /* Estilos para los slides */
+// .slick-slide img {
+//   width: 100%; /* La imagen ocupa todo el ancho del slide */
+//   height: auto; /* Altura automática para mantener la proporción */
+// }
+
+// /* Estilos para los puntos de navegación */
+// .slick-dots {
+//   bottom: 20px; /* Posición de los puntos desde la parte inferior */
+// }
+
+// /* Estilos para los puntos de navegación activos */
+// .slick-dots li button:before {
+//   color: #ffffff; /* Color del punto inactivo */
+// }
+
+// /* Estilos para los puntos de navegación inactivos */
+// .slick-dots li.slick-active button:before {
+//   color: #ff0000; /* Color del punto activo */
+// }
+
+/* Slider.scss */
+
+/* Estilos para el contenedor del slider */
+.slider-container {
+  width: 80%; /* Ancho del slider */
+  margin: 0 auto; /* Centrar el slider horizontalmente */
+  position: relative; /* Establecer posición relativa para los elementos hijos absolutos */
+}
+
+/* Estilos para los slides */
+.slick-slide img {
+  width: 100%; /* La imagen ocupa todo el ancho del slide */
+  height: auto; /* Altura automática para mantener la proporción */
+}
+
+/* Estilos para el texto encima de las imágenes */
+.slide-text {
+  position: absolute; /* Posición absoluta para que el texto esté encima de la imagen */
+  top: 50%; /* Alinear el texto verticalmente en el centro */
+  left: 50%; /* Alinear el texto horizontalmente en el centro */
+  transform: translate(-50%, -50%); /* Centrar el texto correctamente */
+  text-align: center; /* Alinear el texto al centro */
+  color: #ffffff; /* Color del texto */
+}
+
+/* Estilos para el título del slide */
+.slide-text h2 {
+  font-size: 24px; /* Tamaño de la fuente del título */
+  margin-bottom: 10px; /* Espaciado inferior del título */
+}
+
+/* Estilos para la descripción del slide */
+.slide-text p {
+  font-size: 16px; /* Tamaño de la fuente de la descripción */
+  margin-bottom: 0; /* Eliminar el margen inferior de la descripción */
+}

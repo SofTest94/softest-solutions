@@ -1,0 +1,20 @@
+.two-column-container {
+  display: flex;
+}
+
+.left-column,
+.right-column {
+  width: 50%; // Ambas columnas ocupan el 50% del contenedor
+  padding: 20px;
+}
+
+.left-column {
+  background-color: #f5f5f5; // Color de fondo de la columna izquierda
+}
+
+.right-column {
+  img {
+    width: 100%; // La imagen ocupa todo el ancho de la columna derecha
+  }
+  background-color: #ffffffbc; // Color de fondo de la columna izquierda
+}
