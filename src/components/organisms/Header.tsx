@@ -3,7 +3,9 @@ import '../styles/HeaderStyles.scss';
 import { handleScheduleAppointmentClick } from '../../utils/functions';
 import AppBar from '../atoms/AppBar';
 import Section5 from '../Pages/Body/Section5';
-import Section1 from '../Pages/Body/Section1';
+import Section1 from '../Pages/Body/Inicio';
+import Slider from './Slider';
+import TwoColumnLayout from './Inicio';
 
 // const Header: React.FC = () => {
 interface HeaderProps {
@@ -42,8 +44,8 @@ const Header: React.FC<HeaderProps> = ({ onSelectBranch }) => {
       <div style={{ marginTop: '3.8vw' }}>
         <AppBar onSelectBranch={handleSelectBranch} />
       </div>
-      <div id="section1" style={{ paddingTop: '60px' }}>
-        <Section1 />
+      <div id="section1" style={{ paddingTop: '6%' }}>
+        <TwoColumnLayout />
       </div>
     </header>
   );

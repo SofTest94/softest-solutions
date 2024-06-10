@@ -4,7 +4,7 @@ import AddIcon from '@mui/icons-material/Add';
 
 const FloatingButton = () => {
   const handleClick = () => {
-    window.open('https://wa.me/5217711129510?text=Hola,%20me%20interesa%20un%20servicio', '_blank');
+    window.open('https://wa.me/5217711129510?text=Hola,%20me%20interesa%20ver%20un%20anime', '_blank');
   };
 
   return (
